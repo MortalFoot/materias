@@ -23,6 +23,8 @@ export class HomePage {
 
    clickCiencias(){
 
+    this.navCtrl.push(this.Ciencias);
+
 
    }
 }
