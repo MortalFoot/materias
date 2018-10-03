@@ -3,6 +3,7 @@ import { NavController } from 'ionic-angular';
 import { HistoriaPage } from '../historia/historia';
 import { CienciasPage } from '../ciencias/ciencias';
 import { ProbabilidadPage } from '../probabilidad/probabilidad';
+import { ComPage } from '../com/com';
 
 @Component({
   selector: 'page-home',
@@ -13,6 +14,7 @@ export class HomePage {
   historia =HistoriaPage;
   Ciencias = CienciasPage;
   probabilidad = ProbabilidadPage
+  comunicacion = ComPage;
   constructor(public navCtrl: NavController) {
 
   }
@@ -33,6 +35,12 @@ export class HomePage {
    clickProbabilidad(){
 
     this.navCtrl.push(this.probabilidad);
+
+   }
+
+   clickCOM(){
+     
+    this.navCtrl.push(this.comunicacion);
 
    }
 }
