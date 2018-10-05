@@ -6,6 +6,7 @@ import { ProbabilidadPage } from '../probabilidad/probabilidad';
 import { ComPage } from '../com/com';
 import { DibPage } from '../dib/dib';
 import { PappsPage } from '../papps/papps';
+import { RobPage } from '../rob/rob';
 
 @Component({
   selector: 'page-home',
@@ -19,6 +20,7 @@ export class HomePage {
   comunicacion = ComPage;
   dibujo = DibPage;
   aplicacion = PappsPage;
+  robotica = RobPage;
 
   constructor(public navCtrl: NavController) {
 
@@ -58,6 +60,12 @@ export class HomePage {
    clickPAAPS(){
 
    this.navCtrl.push(this.aplicacion);
+
+   }
+
+   clickROB(){
+
+   this.navCtrl.push(this.robotica);
 
    }
 }

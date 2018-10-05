@@ -12,6 +12,7 @@ import { ProbabilidadPage } from '../pages/probabilidad/probabilidad';
 import { ComPage } from '../pages/com/com';
 import { DibPage } from '../pages/dib/dib';
 import { PappsPage } from '../pages/papps/papps';
+import { RobPage } from '../pages/rob/rob';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { PappsPage } from '../pages/papps/papps';
     ProbabilidadPage,
     ComPage,
     DibPage,
-    PappsPage
+    PappsPage,
+    RobPage
   ],
   imports: [
     BrowserModule,
@@ -37,7 +39,8 @@ import { PappsPage } from '../pages/papps/papps';
     ProbabilidadPage,
     ComPage,
     DibPage,
-    PappsPage
+    PappsPage,
+    RobPage
 
   ],
   providers: [
