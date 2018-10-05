@@ -13,6 +13,8 @@ import { ComPage } from '../pages/com/com';
 import { DibPage } from '../pages/dib/dib';
 import { PappsPage } from '../pages/papps/papps';
 import { RobPage } from '../pages/rob/rob';
+import { MiPage } from '../pages/mi/mi';
+import { CalPage } from '../pages/cal/cal';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { RobPage } from '../pages/rob/rob';
     ComPage,
     DibPage,
     PappsPage,
-    RobPage
+    RobPage,
+    MiPage,
+    CalPage
   ],
   imports: [
     BrowserModule,
@@ -40,7 +44,9 @@ import { RobPage } from '../pages/rob/rob';
     ComPage,
     DibPage,
     PappsPage,
-    RobPage
+    RobPage,
+    MiPage,
+    CalPage
 
   ],
   providers: [
