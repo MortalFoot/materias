@@ -10,6 +10,8 @@ import { HistoriaPage } from '../pages/historia/historia';
 import { CienciasPage } from '../pages/ciencias/ciencias';
 import { ProbabilidadPage } from '../pages/probabilidad/probabilidad';
 import { ComPage } from '../pages/com/com';
+import { DibPage } from '../pages/dib/dib';
+import { PappsPage } from '../pages/papps/papps';
 
 @NgModule({
   declarations: [
@@ -19,6 +21,8 @@ import { ComPage } from '../pages/com/com';
     CienciasPage,
     ProbabilidadPage,
     ComPage,
+    DibPage,
+    PappsPage
   ],
   imports: [
     BrowserModule,
@@ -31,7 +35,10 @@ import { ComPage } from '../pages/com/com';
     HistoriaPage,
     CienciasPage,
     ProbabilidadPage,
-    ComPage
+    ComPage,
+    DibPage,
+    PappsPage
+
   ],
   providers: [
     StatusBar,
